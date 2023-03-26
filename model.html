@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="app.js" type="module"></script>
+    <title>Decision Tree Inleveropdracht</title>
+</head>
+
+<body>
+    <div><h3>Mushroom predict-o-nator</h3></div>
+    <!-- <div id="view"></div> -->
+    <div>
+
+        <form name="model">
+            <label for="odor">Odor (p, a, l, n):</label><br>
+            <input type="text" id="odor" name="odor"><br>
+            <label for="bruises">Bruises (t, f):</label><br>
+            <input type="text" id="bruises" name="bruises"><br>
+            <label for="spore-print-color">Spore-print-color (k, n):</label><br>
+            <input type="text" id="spore-print-color" name="spore-print-color"><br>
+            <label for="stalk-surface-below-ring">Stalk-surface-below-ring (s, f, y):</label><br>
+            <input type="text" id="stalk-surface-below-ring" name="stalk-surface-below-ring"><br>
+            <label for="habitat">Habitat (u, g, m):</label><br>
+            <input type="text" id="habitat" name="habitat"><br>
+            <label for="stalk-root">Stalk-root (e, c, b, r):</label><br>
+            <input type="text" id="stalk-root" name="stalk-root"><br>
+            <label for="gill-spacing">Gill-spacing (c, w):</label><br>
+            <input type="text" id="gill-spacing" name="gill-spacing"><br>
+            
+          </form>
+          <button id="button">Predict</button>
+
+    </div>
+    <div id="prediction"></div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+{
+	"root": {
+		"attribute": "odor",
+		"predicateName": "==",
+		"pivot": "n",
+		"match": {
+			"attribute": "spore-print-color",
+			"predicateName": "==",
+			"pivot": "r",
+			"match": {
+				"category": "p"
+			},
+			"notMatch": {
+				"attribute": "stalk-surface-below-ring",
+				"predicateName": "==",
+				"pivot": "y",
+				"match": {
+					"category": "p"
+				},
+				"notMatch": {
+					"attribute": "habitat",
+					"predicateName": "==",
+					"pivot": "l",
+					"match": {
+						"attribute": "bruises",
+						"predicateName": "==",
+						"pivot": "f",
+						"match": {
+							"category": "e"
+						},
+						"notMatch": {
+							"category": "p"
+						},
+						"matchedCount": 53,
+						"notMatchedCount": 8
+					},
+					"notMatch": {
+						"category": "e"
+					},
+					"matchedCount": 61,
+					"notMatchedCount": 2848
+				},
+				"matchedCount": 32,
+				"notMatchedCount": 2909
+			},
+			"matchedCount": 72,
+			"notMatchedCount": 2941
+		},
+		"notMatch": {
+			"attribute": "bruises",
+			"predicateName": "==",
+			"pivot": "t",
+			"match": {
+				"attribute": "stalk-root",
+				"predicateName": "==",
+				"pivot": "c",
+				"match": {
+					"category": "e"
+				},
+				"notMatch": {
+					"attribute": "stalk-root",
+					"predicateName": "==",
+					"pivot": "r",
+					"match": {
+						"category": "e"
+					},
+					"notMatch": {
+						"attribute": "gill-spacing",
+						"predicateName": "==",
+						"pivot": "c",
+						"match": {
+							"category": "p"
+						},
+						"notMatch": {
+							"category": "e"
+						},
+						"matchedCount": 544,
+						"notMatchedCount": 96
+					},
+					"matchedCount": 192,
+					"notMatchedCount": 640
+				},
+				"matchedCount": 512,
+				"notMatchedCount": 832
+			},
+			"notMatch": {
+				"category": "p"
+			},
+			"matchedCount": 1344,
+			"notMatchedCount": 2142
+		},
+		"matchedCount": 3013,
+		"notMatchedCount": 3486
+	}
+}
